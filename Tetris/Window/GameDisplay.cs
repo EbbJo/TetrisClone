@@ -23,7 +23,7 @@ namespace Tetris.Window
 
             this.Paint += OnReDraw;
 
-            BackColor = Color.Black;
+            BackColor = Color.DimGray;
         }
 
         /// <summary>

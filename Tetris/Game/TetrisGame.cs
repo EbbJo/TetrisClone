@@ -24,11 +24,11 @@ namespace Tetris
         /// <summary>
         /// The game display's width in pixels.
         /// </summary>
-        public static readonly int GAME_WINDOW_SIZE_X = 800;
+        public static readonly int GAME_WINDOW_SIZE_X = 1200;
         /// <summary>
         /// The game display's height in pixels.
         /// </summary>
-        public static readonly int GAME_WINDOW_SIZE_Y = 600;
+        public static readonly int GAME_WINDOW_SIZE_Y = 900;
 
         /// <summary>
         /// The number of milliseconds inbetween each frame.
@@ -51,7 +51,7 @@ namespace Tetris
             /*Z     */ Color.Red,
             /*Square*/ Color.Yellow,
             /*Long  */ Color.LightBlue,
-            /*L     */ Color.DarkBlue,
+            /*L     */ Color.Blue,
             /*J     */ Color.Orange
         };
 
@@ -66,14 +66,14 @@ namespace Tetris
             /*Z     */ Color.Pink,
             /*Square*/ Color.LightYellow,
             /*Long  */ Color.Azure,
-            /*L     */ Color.Blue,
+            /*L     */ Color.LightBlue,
             /*J     */ Color.Yellow
         };
 
         /// <summary>
         /// Alpha value to be applied to the ghost piece color.
         /// </summary>
-        public static readonly int TETROMINO_GHOST_ALPHA = 50;
+        public static readonly int TETROMINO_GHOST_ALPHA = 70;
 
         /// <summary>
         /// Ghost colors of each possible value in a block.
